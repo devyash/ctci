@@ -1,8 +1,6 @@
 """
-Remove Dups! Write code to remove duplicates from an unsorted linked list.
-FOLLOW UP
-How would you solve this problem if a temporary buffer is not allowed?
-Hints: #9, #40
+Return Kth to Last: Implement an algorithm to find the kth to last element of a singly linked list.
+Hints:#8, #25, #41, #67, #126
 """
 
 
@@ -72,6 +70,7 @@ def kthtolast(head, k):
         fast = fast.next
     return slow.data
 
-k = 6
+# testing with various values of k
+k = 2
 
 print("\n" + str(k) + "th element to last is " + str(kthtolast(head, k)))
