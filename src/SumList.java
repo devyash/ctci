@@ -138,23 +138,23 @@ public LinkedList addListinreverse(LinkedList b,LinkedList c)
 }
     }
 
-    public static void main(String[] args)
-        {
-    LinkedList test= new LinkedList();
-    LinkedList test2=new LinkedList();
-    test.addtoList(5);
-    test.addtoList(6);
-    test.addtoList(9);
-    test2.addtoList(7);
-    test2.addtoList(8);
-    test2.addtoList(9);
-    test2.addtoList(5);
-
-
-    LinkedList result=test.addListinreverse(test,test2);
-    result.display();
-
-
-}
+//    public static void main(String[] args)
+//        {
+//    LinkedList test= new LinkedList();
+//    LinkedList test2=new LinkedList();
+//    test.addtoList(5);
+//    test.addtoList(6);
+//    test.addtoList(9);
+//    test2.addtoList(7);
+//    test2.addtoList(8);
+//    test2.addtoList(9);
+//    test2.addtoList(5);
+//
+//
+//    LinkedList result=test.addListinreverse(test,test2);
+//    result.display();
+//
+//
+//}
 
 }
