@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class recursion_8_2 {
+public class recursion_8_2A {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
